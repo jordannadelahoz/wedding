@@ -270,9 +270,34 @@
             </div>
           </div>
         </div>
+        <div class="col-xs-3"></div>
+        <div class="col-xs-6" style="display:flex;">
+            <label for="email" id="name_error" class="error-message"
+              >Revisa que tu email sea el correcto.</label
+            >
+            <input
+              name="email"
+              id="email_eventos"
+              type="email"
+              placeholder="Ingresa tu email"
+            />
+          
+            <button
+              class="ghost-btn btn-dark"
+              name="enviar"
+              type="submit"
+              value="Enviar"
+              onclick="checkEmail()"
+            >
+              Enviar
+            </button>
+          </div>
+          <div class="col-xs-3"></div>
       </div>
 
-      <div class="article first">
+      
+
+      <div class="article first" id="colchagua">
         <div class="container-fluid clearfix">
           <div class="row">
             <div class="col-md-12 centered">
@@ -286,7 +311,7 @@
         </div>
       </div>
 
-      <div class="article">
+      <div class="article first" id="bellavista">
         <div class="container-fluid clearfix">
           <div class="row">
             <div class="col-md-12 centered">
@@ -300,7 +325,7 @@
         </div>
       </div>
 
-      <div class="article">
+      <div class="article first" id="villaalemana">
         <div class="container-fluid clearfix">
           <div class="row">
             <div class="col-md-12 centered">
@@ -314,7 +339,7 @@
         </div>
       </div>
 
-      <div class="article">
+      <div class="article first" id="concon">
         <div class="container-fluid clearfix">
           <div class="row">
             <div class="col-md-12 centered">
@@ -917,5 +942,6 @@
     <script src="js/grid-effect.js"></script>
     <script src="js/pace.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/eventChecker.js"></script>
   </body>
 </html>
