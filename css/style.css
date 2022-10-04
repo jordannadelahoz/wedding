@@ -1318,3 +1318,9 @@ label[for=no] {
   color: white;
   transform: rotateX(180deg);
 }
+
+.social-icons{
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem;
+}
