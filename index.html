@@ -53,7 +53,7 @@
       </div>
     </div>
 
-    <nav class="navbar navbar-default navbar-fixed-top sticky-nav">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button
@@ -353,7 +353,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <span class="icon-icon-portrait"></span>
-            <h1 class="heading">Photo Gallery</h1>
+            <h1 class="heading">Galería de fotos</h1>
           </div>
           <div class="col-md-12">
             <div class="grid">
@@ -543,7 +543,7 @@
             <div class="col-md-12 content centered">
               <span class="icon-icon-separator"></span>
               <h4 class="h1" style="color:#FFF">Lista de novios</h4>
-              <h4 style="color:#FFF">Posiciona el mouse aquí</h4>
+              <h4 style="color:#FFF">Posiciona el mouse o toca aquí</h4>
               <span class="fa-light fa-computer-mouse"></span>
             </div>          
           </div>
@@ -561,133 +561,7 @@
     </div>
     <!--/ gifts end -->
 
-    <section class="content" id="rsvp">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            <span class="icon-icon-separator dark"></span>
-            <h1 class="text-center">RSVP</h1>
-
-            <form id="rsvp_form" method="post" action="mailer.php">
-              <div id="loading"></div>
-
-              <div class="container-fluid">
-                <fieldset class="row radio-group">
-                  <h3 class="text-center">Please RSVP by February 2nd</h3>
-
-                  <div class="col-xs-12">
-                    <div class="centered">
-                      <input
-                        type="radio"
-                        name="attend"
-                        value="yes"
-                        id="yes"
-                        checked
-                      />
-                      <input type="radio" name="attend" value="no" id="no" />
-
-                      <div class="switch">
-                        <label for="yes">Attend</label>
-                        <label for="no">Decline</label>
-                        <span></span>
-                      </div>
-                    </div>
-                  </div>
-                </fieldset>
-
-                <div id="form-messages"></div>
-
-                <fieldset class="row" id="rsvp_guest_info">
-                  <div class="col-xs-12">
-                    <label for="name" id="name_error" class="error-message"
-                      >Name is required</label
-                    >
-                    <input
-                      name="name"
-                      id="name"
-                      type="text"
-                      placeholder="Guest's Name"
-                    />
-                  </div>
-
-                  <div class="col-xs-12">
-                    <label for="name" id="email_error" class="error-message"
-                      >Email is required</label
-                    >
-                    <input
-                      name="email"
-                      id="email"
-                      type="email"
-                      placeholder="Guest's E-Mail"
-                    />
-                  </div>
-
-                  <div class="col-xs-12">
-                    <select name="guests" id="guests">
-                      <option value="None" selected="selected"
-                        >Number of guests</option
-                      >
-                      <option value="One">Only me</option>
-                      <option value="Two">Two</option>
-                      <option value="Three">Three</option>
-                      <option value="Four">Four</option>
-                      <option value="Five">Five</option>
-                      <option value="Six">Six</option>
-                    </select>
-                  </div>
-                </fieldset>
-
-                <fieldset class="row" id="rsvp_song">
-                  <h3 class="text-center">
-                    Request a song to play at the reception
-                  </h3>
-                  <div class="col-xs-6 text">
-                    <input
-                      name="song_name"
-                      type="text"
-                      placeholder="Song Name"
-                    />
-                  </div>
-                  <div class="col-xs-6 text">
-                    <input
-                      name="song_artist"
-                      type="text"
-                      placeholder="Artist"
-                    />
-                  </div>
-                </fieldset>
-
-                <fieldset class="row" id="comments_sec">
-                  <div class="col-xs-12">
-                    <textarea
-                      id="message"
-                      name="message"
-                      placeholder="Comments"
-                    ></textarea>
-                  </div>
-                </fieldset>
-
-                <fieldset class="row">
-                  <div class="col-xs-12">
-                    <div class="btn-container">
-                      <button
-                        class="ghost-btn btn-dark"
-                        name="submit"
-                        type="submit"
-                        value="Submit"
-                      >
-                        submit
-                      </button>
-                    </div>
-                  </div>
-                </fieldset>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- rsvp end -->
+    
 
     <section class="footer grey-bg content">
       <div class="container">
@@ -701,7 +575,7 @@
             <p>Desde 2013 disfrutando la vida</p>
           </div>
           <div class="col-md-4">
-            <h3 class="text-center">Escríbenos!</h3>
+            <h3 class="text-center">Aquí estamos!</h3>
             <ul class="list-inline social">
               <li>
                 <a href="https://wa.me/+56981204049" target="_blank"

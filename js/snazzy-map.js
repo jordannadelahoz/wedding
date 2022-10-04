@@ -96,7 +96,7 @@
 ['Santuario Los Pinos', 'Villarrica 4, Viña del Mar, Concón, Valparaíso', 'undefined', '', '', -32.9542839, -71.5385, 'https://www.iconsdb.com/icons/download/color/00CC00/wedding-rings-32.png'],
 ['Nogaró', 'Av. Perú 100, Viña del Mar, Valparaíso', 'undefined', '', '', -33.01895,-71.5617, 'https://www.iconsdb.com/icons/download/soylent-red/restaurant-32.png'],
 ['Club Chocolate', 'Ernesto Pinto Lagarrigue 192, Recoleta, 8420492, Región Metropolitana', 'undefined', '', '', -33.4320,-70.6399, 'https://www.iconsdb.com/icons/download/orange/music-record-32.png'],
-['Hotel Santa Teresita', 'Chillán 1195, San Fernando, O\'Higgins', 'http://www.hotelsantateresita.cl/', '', '', -34.5810332,-70.9817, 'https://www.iconsdb.com/icons/download/barbie-pink/wine-glass-32.png'],
+['Hotel Santa Teresita', 'Chillán 1195, San Fernando, O\'Higgins', 'http://www.hotelsantateresita.cl/', '', '', -34.5812,-70.9813, 'https://www.iconsdb.com/icons/download/barbie-pink/wine-glass-32.png'],
 ['Bravatta Italiana', 'Santiago 550, local 1, Valparaíso, Villa Alemana 6500000, Valparaíso', 'undefined', '', '', -33.0434241,-71.373783, 'https://www.iconsdb.com/icons/download/caribbean-blue/wine-bottle-32.png']
         ];
         for (i = 0; i < locations.length; i++) {

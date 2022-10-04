@@ -145,6 +145,7 @@ legend {
 /*     II.     Header
 --------------------------------------------------------------------------------------------------------*/
 .navbar-default {
+  border:0px;
   background-color: #343E34;
   border-color: #fff; }
 
