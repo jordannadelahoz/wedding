@@ -145,7 +145,7 @@ legend {
 /*     II.     Header
 --------------------------------------------------------------------------------------------------------*/
 .navbar-default {
-  background-color: #f7cac9;
+  background-color: #343E34;
   border-color: #fff; }
 
 .sticky-nav::after {
@@ -160,16 +160,16 @@ legend {
 
 #navbar a {
   text-decoration: none;
-  color: #857b70;
+  color: #ffffff;
   font-size: 16px;
-  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
-  text-transform: uppercase; }
+  font-family: "Quicksand", Arial, Helvetica, sans-serif;
+  }
   #navbar a span {
     vertical-align: middle;
     font-size: 17px; }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, #navbar .active > a, #navbar a:hover {
-  background-color: #f7cac9;
+  background-color: #C9BCB9;
   color: #857b70; }
 
 .navbar-default .navbar-toggle {
@@ -179,10 +179,10 @@ legend {
   background-color: transparent; }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #857b70; }
+  background-color: #ffffff; }
 
 .navbar-default .navbar-brand {
-  color: #857b70; }
+  color: #ffffff; }
 
 .menu--prospero .menu__link {
   position: relative;
@@ -1313,7 +1313,7 @@ label[for=no] {
 }
 
 .flip-card-back {
-  background-color: #f7cac9;
+  background-color: #081624;
   color: white;
   transform: rotateX(180deg);
 }
