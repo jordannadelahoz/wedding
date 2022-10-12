@@ -1,6 +1,6 @@
 var lista = {
-    "drespino@uc.cl":{"colchagua":true,"bellavista":false,"villaalemana":true,"concon":true},
-    "jddelahoz@uc.cl":{"colchagua":false,"bellavista":true,"villaalemana":true,"concon":true}
+    "drespino@uc.cl":{"colchagua":true,"bellavista":false,"concon":true,"vina":true},
+    "jddelahoz@uc.cl":{"colchagua":false,"bellavista":true,"concon":true,"vina":true}
 }
 
 // Revisa email guardado en localStorage
