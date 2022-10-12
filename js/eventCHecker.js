@@ -25,17 +25,17 @@ function checkEmail() {
         if(lista[userEmail].bellavista) document.getElementById('bellavista').style.display='block';
         else document.getElementById('bellavista').style.display='none';
 
-        if(lista[userEmail].villaalemana) document.getElementById('villaalemana').style.display='block';
-        else document.getElementById('villaalemana').style.display='none';
-
         if(lista[userEmail].concon) document.getElementById('concon').style.display='block';
         else document.getElementById('concon').style.display='none';
+        
+        if(lista[userEmail].vina) document.getElementById('vina').style.display='block';
+        else document.getElementById('vina').style.display='none';
     }
     else{
         console.log("no está")
         document.getElementById('colchagua').style.display='none';
         document.getElementById('bellavista').style.display='none';
-        document.getElementById('villaalemana').style.display='none';
         document.getElementById('concon').style.display='none';
+        document.getElementById('vina').style.display='none';
     }
 }
