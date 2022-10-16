@@ -93,7 +93,7 @@
         var mapElement = document.getElementById('map');
         var map = new google.maps.Map(mapElement, mapOptions);
         var locations = [
-['Nogaró', 'Av. Perú 100, Viña del Mar, Valparaíso', 'undefined', '', '', -33.01895,-71.5617, 'https://www.iconsdb.com/icons/download/soylent-red/restaurant-32.png']        ];
+['Nogaró', 'Av. Perú 100, Viña del Mar, Valparaíso', 'undefined', '', '', -33.01895,-71.5617, 'img/restaurant-32.png']        ];
         for (i = 0; i < locations.length; i++) {
             if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
             if (locations[i][2] =='undefined'){ telephone ='';} else { telephone = locations[i][2];}

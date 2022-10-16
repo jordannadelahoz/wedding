@@ -93,7 +93,7 @@
         var mapElement = document.getElementById('map');
         var map = new google.maps.Map(mapElement, mapOptions);
         var locations = [
-['Club Chocolate', 'Ernesto Pinto Lagarrigue 192, Recoleta, 8420492, Región Metropolitana', 'undefined', '', '', -33.4320,-70.6399, 'https://www.iconsdb.com/icons/download/orange/music-record-32.png']
+['Club Chocolate', 'Ernesto Pinto Lagarrigue 192, Recoleta, 8420492, Región Metropolitana', 'undefined', '', '', -33.4320,-70.6399, 'img/music-record-32.png']
         ];
         for (i = 0; i < locations.length; i++) {
             if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}

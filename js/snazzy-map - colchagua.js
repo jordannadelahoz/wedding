@@ -93,7 +93,7 @@
         var mapElement = document.getElementById('map');
         var map = new google.maps.Map(mapElement, mapOptions);
         var locations = [
-['Hotel Santa Teresita', 'Chillán 1195, San Fernando, O\'Higgins', 'http://www.hotelsantateresita.cl/', '', '', -34.5812,-70.9813, 'https://www.iconsdb.com/icons/download/barbie-pink/wine-glass-32.png']
+['Hotel Santa Teresita', 'Chillán 1195, San Fernando, O\'Higgins', 'http://www.hotelsantateresita.cl/', '', '', -34.5812,-70.9813, 'img/wine-glass-32.png']
         ];
         for (i = 0; i < locations.length; i++) {
             if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}

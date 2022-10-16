@@ -93,7 +93,7 @@
         var mapElement = document.getElementById('map');
         var map = new google.maps.Map(mapElement, mapOptions);
         var locations = [
-['Santuario Los Pinos', 'Villarrica 4, Viña del Mar, Concón, Valparaíso', 'undefined', '', '', -32.9542839, -71.5385, 'https://www.iconsdb.com/icons/download/color/00CC00/wedding-rings-32.png']
+['Santuario Los Pinos', 'Villarrica 4, Viña del Mar, Concón, Valparaíso', 'undefined', '', '', -32.9542839, -71.5385, 'img/wedding-rings-32.png']
         ];
         for (i = 0; i < locations.length; i++) {
             if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
