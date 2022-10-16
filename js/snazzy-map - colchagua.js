@@ -3,7 +3,7 @@
     function init() {
         var mapOptions = {
             center: new google.maps.LatLng(-34.5810332,-70.9817),
-            zoom: 12,
+            zoom: 13,
             zoomControl: true,
             zoomControlOptions: {
                 style: google.maps.ZoomControlStyle.DEFAULT,
