@@ -314,7 +314,7 @@ legend {
   z-index: 1;
   display: inline-block;
   margin: 4px;
-  background: #FFF;
+  background: #343E34;
   padding: .6em 1.2em;
   font-size: 20px;
   font-size: 1.7rem;
@@ -353,7 +353,7 @@ legend {
   border-radius: 5px;
   text-align: center;
   stroke: #fff;
-  color: #6a6a6a;
+  color: #fff;
   font-family: Lato;
   font-size: 14px;
   font-weight: bold;
@@ -1045,7 +1045,7 @@ input[type="text"], input[type="email"], select, textarea {
   border-radius: 0px;
   width: 100%;
   padding: 15px 15px;
-  margin: 1% 0 2.5%;
+  margin: 0;
   resize: none;
   background: #fff;
   -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
