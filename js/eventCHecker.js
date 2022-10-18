@@ -15,7 +15,7 @@ var lista = {
     "fitraipe@gmail.com":{"colchagua":false,"bellavista":true,"concon":true,"vina":true},
     "elgueta.nani@gmail.com":{"colchagua":false,"bellavista":false,"concon":true,"vina":true},
     "rvasqud@gmail.com":{"colchagua":false,"bellavista":false,"concon":true,"vina":true},
-    "carolaarmijobarraza@gmail.con":{"colchagua":false,"bellavista":true,"concon":true,"vina":true},
+    "carolaarmijobarraza@gmail.com":{"colchagua":false,"bellavista":true,"concon":true,"vina":true},
     "josecorrealavandero@gmail.com":{"colchagua":false,"bellavista":true,"concon":true,"vina":true},
     "felipeamijo@live.cl":{"colchagua":false,"bellavista":true,"concon":true,"vina":true},
     "piera.mori.c@gmail.com":{"colchagua":false,"bellavista":true,"concon":true,"vina":true},
@@ -41,7 +41,9 @@ var lista = {
     "jojo.rivas@gmail.com":{"colchagua":false,"bellavista":true,"concon":true,"vina":true},
     "jose.f.hernandez@gmail.com":{"colchagua":false,"bellavista":true,"concon":true,"vina":true},
     "danimartinez.a@gmail.com":{"colchagua":false,"bellavista":true,"concon":false,"vina":false},
-    "ni.escarate@gmail.com":{"colchagua":false,"bellavista":true,"concon":false,"vina":false}
+    "cardenasclaudio@outlook.com":{"colchagua":false,"bellavista":true,"concon":false,"vina":false},
+    "ni.escarate@gmail.com":{"colchagua":false,"bellavista":true,"concon":false,"vina":false},
+    "pcruces94@gmail.com":{"colchagua":false,"bellavista":true,"concon":false,"vina":false}
 }
 
 // Revisa email guardado en localStorage
